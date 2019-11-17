@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - master
+
+deploy:
+  provider: heroku
+  app: "votetoda"
+  api_key:
+    secure: "490894d6-f2e2-4269-bba6-d899562c7ad0"
